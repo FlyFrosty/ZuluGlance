@@ -13,19 +13,14 @@
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" id="3" lineNum="8" parent="globals/ZuluGlanceGlanceView" pc="268435841" symbol="&lt;init&gt;"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="5" lineNum="9" parent="globals/ZuluGlanceView" pc="268435879" symbol="initialize"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="5" lineNum="10" parent="globals/ZuluGlanceView" pc="268435883" symbol="initialize"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="14" parent="globals/ZuluGlanceView" pc="268435902" symbol="onLayout"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="18" parent="globals/ZuluGlanceView" pc="268435906" symbol="onLayout"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="19" parent="globals/ZuluGlanceView" pc="268435950" symbol="onLayout"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="22" parent="globals/ZuluGlanceView" pc="268436046" symbol="onLayout"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="23" parent="globals/ZuluGlanceView" pc="268436082" symbol="onLayout"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="27" parent="globals/ZuluGlanceView" pc="268436156" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="30" parent="globals/ZuluGlanceView" pc="268436160" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="31" parent="globals/ZuluGlanceView" pc="268436204" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="34" parent="globals/ZuluGlanceView" pc="268436300" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="35" parent="globals/ZuluGlanceView" pc="268436336" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="37" parent="globals/ZuluGlanceView" pc="268436409" symbol="onUpdate"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="8" lineNum="7" parent="globals/ZuluGlanceView" pc="268436660" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="8" lineNum="7" parent="globals/ZuluGlanceView" pc="268436660" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="13" parent="globals/ZuluGlanceView" pc="268435902" symbol="onLayout"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="6" lineNum="14" parent="globals/ZuluGlanceView" pc="268435906" symbol="onLayout"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="18" parent="globals/ZuluGlanceView" pc="268435943" symbol="onUpdate"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="21" parent="globals/ZuluGlanceView" pc="268435947" symbol="onUpdate"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="22" parent="globals/ZuluGlanceView" pc="268435991" symbol="onUpdate"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="7" lineNum="25" parent="globals/ZuluGlanceView" pc="268436087" symbol="onUpdate"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="8" lineNum="7" parent="globals/ZuluGlanceView" pc="268436202" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceView.mc" id="8" lineNum="7" parent="globals/ZuluGlanceView" pc="268436202" symbol="&lt;init&gt;"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="10" lineNum="7" parent="globals/ZuluGlanceApp" pc="268435733" symbol="getGlanceView"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="10" lineNum="8" parent="globals/ZuluGlanceApp" pc="268435737" symbol="getGlanceView"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="11" lineNum="11" parent="globals/ZuluGlanceApp" pc="268435775" symbol="initialize"/>
@@ -34,45 +29,35 @@
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="12" lineNum="17" parent="globals/ZuluGlanceApp" pc="268435802" symbol="getInitialView"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="13" lineNum="5" parent="globals/ZuluGlanceApp" pc="268435860" symbol="&lt;init&gt;"/>
         <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="13" lineNum="5" parent="globals/ZuluGlanceApp" pc="268435860" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="14" lineNum="22" parent="globals" pc="268436430" symbol="getApp"/>
-        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="14" lineNum="23" parent="globals" pc="268436442" symbol="getApp"/>
-        <entry filename="Rez" id="16" lineNum="2" parent="globals/Rez/Drawables" pc="268436703" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="17" lineNum="7" parent="globals/Rez/Fonts" pc="268436705" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="18" lineNum="9" parent="globals/Rez/JsonData" pc="268436707" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="19" lineNum="18" parent="globals/Rez/Layouts" pc="268436459" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="20" parent="globals/Rez/Layouts" pc="268436471" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="21" parent="globals/Rez/Layouts" pc="268436590" symbol="MainLayout"/>
-        <entry filename="Rez" id="19" lineNum="23" parent="globals/Rez/Layouts" pc="268436642" symbol="MainLayout"/>
-        <entry filename="Rez" id="20" lineNum="11" parent="globals/Rez/Layouts" pc="268436706" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="21" lineNum="28" parent="globals/Rez/Menus" pc="268436704" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="22" lineNum="30" parent="globals/Rez/Strings" pc="268436708" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="1" parent="globals/Rez" pc="268436679" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="1" parent="globals/Rez" pc="268436679" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="14" lineNum="22" parent="globals" pc="268436173" symbol="getApp"/>
+        <entry filename="/Users/jeffforste/Garmin Projects/ZuluGlance/source/ZuluGlanceApp.mc" id="14" lineNum="23" parent="globals" pc="268436185" symbol="getApp"/>
+        <entry filename="Rez" id="16" lineNum="2" parent="globals/Rez/Drawables" pc="268436245" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="17" lineNum="6" parent="globals/Rez/Fonts" pc="268436247" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="18" lineNum="8" parent="globals/Rez/JsonData" pc="268436249" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="19" lineNum="10" parent="globals/Rez/Layouts" pc="268436248" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="20" lineNum="12" parent="globals/Rez/Menus" pc="268436246" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="21" lineNum="14" parent="globals/Rez/Strings" pc="268436250" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="1" parent="globals/Rez" pc="268436221" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="22" lineNum="1" parent="globals/Rez" pc="268436221" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="16" method="true" symbol="MainLayout"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="18" symbol="AppName"/>
+        <entry field="true" id="16" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="8389345" symbol="rezId"/>
-        <entry field="true" id="17" symbol="ZTime"/>
+        <entry field="true" id="15" symbol="ZTime"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="14" symbol="id_monkey"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="8389065" symbol="locY"/>
-        <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="13" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="10" object="true" symbol="ZuluGlanceView"/>
@@ -81,7 +66,7 @@
         <entry id="9" object="true" symbol="ZuluGlanceGlanceView"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="15" symbol="LauncherIcon"/>
+        <entry field="true" id="14" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
@@ -97,17 +82,12 @@
         <entry endPc="268435731" name="zTime" stackId="2" startPc="268435483"/>
         <entry endPc="268435731" name="zuluTime" stackId="3" startPc="268435483"/>
         <entry arg="true" endPc="268435732" name="dc" stackId="1" startPc="268435479"/>
-        <entry endPc="268436154" name="zTime" stackId="2" startPc="268435906"/>
-        <entry endPc="268436154" name="zuluTime" stackId="3" startPc="268435906"/>
-        <entry arg="true" endPc="268436155" name="dc" stackId="1" startPc="268435902"/>
-        <entry endPc="268436428" name="zTime" stackId="2" startPc="268436160"/>
-        <entry endPc="268436428" name="zuluTime" stackId="3" startPc="268436160"/>
-        <entry arg="true" endPc="268436429" name="dc" stackId="1" startPc="268436156"/>
-        <entry endPc="268436658" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436471"/>
-        <entry arg="true" endPc="268436659" name="dc" stackId="1" startPc="268436459"/>
+        <entry arg="true" endPc="268435942" name="dc" stackId="1" startPc="268435902"/>
+        <entry endPc="268436171" name="zTime" stackId="2" startPc="268435947"/>
+        <entry endPc="268436171" name="zuluTime" stackId="3" startPc="268435947"/>
+        <entry arg="true" endPc="268436172" name="dc" stackId="1" startPc="268435943"/>
     </localVars>
     <annotations>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZTime"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
@@ -119,11 +99,11 @@
         <dataEntry label="globals/ZuluGlanceView" offset="541" parentId="globals" symbolId="ZuluGlanceView" type="class"/>
         <dataEntry label="globals/Rez" offset="604" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/Rez/Drawables" offset="683" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="730" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="761" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="792" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="831" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="862" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="722" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="753" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="784" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="815" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="846" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="ZuluGlanceGlanceView" startPc="268435456">
@@ -139,15 +119,15 @@
         <functionEntry accessMode="public" endPc="268435901" name="initialize" parent="ZuluGlanceView" startPc="268435879">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436155" name="onLayout" parent="ZuluGlanceView" startPc="268435902">
+        <functionEntry accessMode="public" endPc="268435942" name="onLayout" parent="ZuluGlanceView" startPc="268435902">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436429" name="onUpdate" parent="ZuluGlanceView" startPc="268436156">
+        <functionEntry accessMode="public" endPc="268436172" name="onUpdate" parent="ZuluGlanceView" startPc="268435943">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436678" name="&lt;init&gt;" parent="ZuluGlanceView" startPc="268436660">
+        <functionEntry accessMode="protected" endPc="268436220" name="&lt;init&gt;" parent="ZuluGlanceView" startPc="268436202">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435774" name="getGlanceView" parent="ZuluGlanceApp" startPc="268435733">
@@ -162,32 +142,28 @@
         <functionEntry accessMode="protected" endPc="268435878" name="&lt;init&gt;" parent="ZuluGlanceApp" startPc="268435860">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436458" name="getApp" startPc="268436430">
+        <functionEntry accessMode="public" endPc="268436201" name="getApp" startPc="268436173">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436703" name="&lt;init&gt;" parent="Drawables" startPc="268436703">
+        <functionEntry accessMode="protected" endPc="268436245" name="&lt;init&gt;" parent="Drawables" startPc="268436245">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436705" name="&lt;init&gt;" parent="Fonts" startPc="268436705">
+        <functionEntry accessMode="protected" endPc="268436247" name="&lt;init&gt;" parent="Fonts" startPc="268436247">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436707" name="&lt;init&gt;" parent="JsonData" startPc="268436707">
+        <functionEntry accessMode="protected" endPc="268436249" name="&lt;init&gt;" parent="JsonData" startPc="268436249">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436659" name="MainLayout" parent="Layouts" startPc="268436459">
-            <param id="dc"/>
+        <functionEntry accessMode="protected" endPc="268436248" name="&lt;init&gt;" parent="Layouts" startPc="268436248">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436706" name="&lt;init&gt;" parent="Layouts" startPc="268436706">
+        <functionEntry accessMode="protected" endPc="268436246" name="&lt;init&gt;" parent="Menus" startPc="268436246">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436704" name="&lt;init&gt;" parent="Menus" startPc="268436704">
+        <functionEntry accessMode="protected" endPc="268436250" name="&lt;init&gt;" parent="Strings" startPc="268436250">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436708" name="&lt;init&gt;" parent="Strings" startPc="268436708">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268436702" name="&lt;init&gt;" parent="Rez" startPc="268436679">
+        <functionEntry accessMode="protected" endPc="268436244" name="&lt;init&gt;" parent="Rez" startPc="268436221">
             <documentation/>
         </functionEntry>
     </functions>
