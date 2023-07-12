@@ -1,4 +1,9 @@
 <strings>
     <string id="AppName">Zulu Glance Time</string>
     <string id="ZTime">Zulu Time</string>
+    <string id="dateString">Zulu Date</string>
+    <string id="JDTime">Julian Date</string>
+    <string id="jDayDisp">Julian Day Count</string>
+    <string id="yrMod">Julian Day Count</string>
+        
 </strings>

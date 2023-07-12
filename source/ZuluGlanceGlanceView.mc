@@ -1,5 +1,5 @@
-using Toybox.WatchUi;
-using Toybox.Graphics;
+import Toybox.WatchUi;
+import Toybox.Graphics;
 
 import Toybox.Time.Gregorian;
 import Toybox.Time;
@@ -20,5 +20,7 @@ class ZuluGlanceGlanceView extends WatchUi.GlanceView {
 
         dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(0,dc.getHeight() / 2, Graphics.FONT_LARGE, zuluTime, Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+
+       
     }
 }
