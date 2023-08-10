@@ -1,0 +1,98 @@
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 4; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 5; ]
+import Toybox.Time;
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 7; glance = true; ]
+class ZuluGlanceGlanceView extends WatchUi.GlanceView{
+    [ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 10; ]
+    function initialize() as Void {
+_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_10_26_start:
+[ "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" 11 6 ]
+        %tmp.2 = getv ? :GlanceView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_10_26_stop:
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 14; ]
+    function onUpdate(dc) {
+_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_start:
+[ "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" 18 8 ]
+        [ "_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_start" "_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_stop" ]
+        %zTime.1 = local;
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        %tmp.2 = getv function %tmp.1 :utcInfo;
+        %tmp.3 = getm $.Toybox.Time;
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = getm $.Toybox.Time;
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %zTime.1 %tmp.8;
+[ "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" 19 8 ]
+        [ "_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_start" "_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_stop" ]
+        %zuluTime.2 = local;
+        %tmp.10 = getv ? :Lang;
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "$1$:$2$";
+        %tmp.13 = newa 2;
+        %tmp.14 = lgetv %zTime.1;
+        %tmp.15 = getv %tmp.14 :hour;
+        %tmp.16 = getv function %tmp.15 :format;
+        %tmp.17 = "%02d";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        %tmp.19 = dup %tmp.13;
+        %tmp.20 = aputv %tmp.19 0 %tmp.18;
+        %tmp.21 = lgetv %zTime.1;
+        %tmp.22 = getv %tmp.21 :min;
+        %tmp.23 = getv function %tmp.22 :format;
+        %tmp.24 = "%02d";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        %tmp.26 = dup %tmp.20;
+        %tmp.27 = aputv %tmp.26 1 %tmp.25;
+        %tmp.28 = invoke %tmp.10 %tmp.11(%tmp.12, %tmp.27);
+        %tmp.29 = " Z";
+        %tmp.30 = add %tmp.28 %tmp.29;
+        lputv %zuluTime.2 %tmp.30;
+[ "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" 21 8 ]
+        %tmp.31 = lgetv %dc;
+        %tmp.32 = getv function %tmp.31 :setColor;
+        %tmp.33 = getm $.Toybox.Graphics;
+        %tmp.34 = getv %tmp.33 :COLOR_BLUE;
+        %tmp.35 = getm $.Toybox.Graphics;
+        %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+        invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
+[ "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc" 22 8 ]
+        %tmp.37 = lgetv %dc;
+        %tmp.38 = getv function %tmp.37 :drawText;
+        %tmp.39 = 0;
+        %tmp.40 = lgetv %dc;
+        %tmp.41 = getv function %tmp.40 :getHeight;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        %tmp.43 = 2;
+        %tmp.44 = div %tmp.42 %tmp.43;
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv %tmp.45 :FONT_LARGE;
+        %tmp.48 = lgetv %zuluTime.2;
+        %tmp.49 = getm $.Toybox.Graphics;
+        %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_LEFT;
+        %tmp.51 = getm $.Toybox.Graphics;
+        %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_VCENTER;
+        %tmp.53 = bitor %tmp.50 %tmp.52;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.44, %tmp.46, %tmp.48, %tmp.53);
+_Users_jeffreyforste_Garmin_Projects_ZuluGlance_source_ZuluGlanceGlanceView_mc_14_26_stop:
+    }
+}
+[ @file = "/Users/jeffreyforste/Garmin Projects/ZuluGlance/source/ZuluGlanceGlanceView.mc"; @line = 1; ]
+<init> {
+}

@@ -22,7 +22,7 @@ class ZuluGlanceView extends WatchUi.View {
     
         //Format Zulu Time
         var zTime = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
-        var zuluTime = Lang.format("$1$:$2$", [zTime.hour.format("%02d"), zTime.min.format("%02d")])+" Zulu";
+        var zuluTime = Lang.format("$1$:$2$", [zTime.hour.format("%02d"), zTime.min.format("%02d")])+" Z";
         var lTime = System.getClockTime();
         
         
@@ -34,25 +34,29 @@ class ZuluGlanceView extends WatchUi.View {
 
         //Get the Julian Date
         var jTime = Gregorian.utcInfo(Time.now(), Time.FORMAT_SHORT);
-        var A;
+    /*  var A;
         var B;
         var C;
         var E;
         var F;
         var JD;
+    
         var Y = jTime.year;
         var M = jTime.month;
         var D = jTime.day;
         var JDTime; 
+    */
         var jDayCount = 0;
 
-        A = Math.floor(Y/100);
+        /*A = Math.floor(Y/100);
         B = Math.floor(A/4);
         C = Math.floor(2-A+B);
         E = Math.floor(365.25 * (Y+4716));
         F = Math.floor(30.6001 * (M+1));
         JD = C+D+E+F-1524.5;
         JDTime = "Jul Date: "+Lang.format("$1$", [JD.format("%01.1f")]);
+        */
+
 
         //Figure Julian Daye (YY followed by what number of the year it is (1-365))
         //Inspiration provided by MESURF88
@@ -76,7 +80,7 @@ class ZuluGlanceView extends WatchUi.View {
         //get a 2 digit year
         var yrMod = jTime.year - 2000;
         //create julian day
-        var jDayDisp = "Jul Day: "+Lang.format("$1$", [yrMod.format("%01d")])+Lang.format("$1$", [jDayCount.format("%01d")]);
+        var jDayDisp = "Jul Day: "+Lang.format("$1$ ", [yrMod.format("%01d")])+Lang.format("$1$", [jDayCount.format("%01d")]);
 
 
         //Determine Offset labeling
@@ -87,12 +91,12 @@ class ZuluGlanceView extends WatchUi.View {
         }
 
         //Draw Screen Time
-        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.40, Graphics.FONT_LARGE, zuluTime, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.5, Graphics.FONT_SYSTEM_XTINY, myOffset, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.5, Graphics.FONT_LARGE, zuluTime, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.65, Graphics.FONT_SYSTEM_XTINY, myOffset, Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.1, Graphics.FONT_SYSTEM_XTINY, "Z Date", Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.2, Graphics.FONT_TINY, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.75, Graphics.FONT_SYSTEM_XTINY, JDTime, Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.65, Graphics.FONT_SYSTEM_XTINY, jDayDisp, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.2, Graphics.FONT_SYSTEM_TINY, dateString, Graphics.TEXT_JUSTIFY_CENTER);
+        //dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.75, Graphics.FONT_SYSTEM_XTINY, JDTime, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2,dc.getHeight() * 0.75, Graphics.FONT_SYSTEM_TINY, jDayDisp, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
 }
